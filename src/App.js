@@ -1,12 +1,9 @@
-import { Box } from '@chakra-ui/react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <Box>
-      <Navbar />
-    </Box>
+    <Home />
   );
 }
 

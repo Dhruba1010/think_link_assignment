@@ -1,0 +1,140 @@
+.Main {
+    width: 100%;
+    padding-top: 1%;
+    color:#535f7b;
+}
+
+.Main__Cont {
+    width: 96%;
+    margin: auto;
+}
+
+.Main__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.Main__details__single {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 22%;
+    padding: 5px 15px;
+}
+
+.Main__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main__title p {
+    font-weight: 600;
+}
+
+.Main__details__single > p {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.Main__Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main__Head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    gap: 10px;
+    background-color: #ef4859;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.Main__Chart {
+    margin-top: 1.5rem;
+}
+
+.Main__Chart__main {
+    border: 1px solid #FFF2EE;
+    border-radius: 4px;
+}
+
+.Main__Inventory {
+    margin-top: 1.5rem;
+}
+
+.Inventory__Table {
+    border-top: 1px solid lightgray;
+    color: #8c8ca1;
+}
+
+.Inventory__Table tr th {
+    color: black;
+}
+
+.Inventory__th {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.Inventory__td {
+    display: flex;
+}
+
+.Inventory__td img {
+    width: 48px;
+}
+
+.Inventory__td__proD {
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 110%;
+    text-align: Left;
+    vertical-align: Top;
+    font-weight: 600;
+    color: black;
+}
+
+.Inventory__td__rating {
+    display: flex;
+    gap: 5px;
+}
+
+.Inventory__td__rating div {
+    padding: 4px 7px;
+    background-color: #f4f7ff;
+    color: #5d6983;
+
+}
+
+.Inventory__Table tr td {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Chart__salesOver {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid #FFF2EE;
+    padding: 10px 0;
+}
+
+.Chart__salesOver > div:nth-child(1) p:nth-child(1) {
+    color: black;
+    font-weight: 600;
+}
+
+.Chart__salesOver > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
