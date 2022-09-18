@@ -5,6 +5,7 @@ import { MdDesktopMac, MdInventory, MdPeopleOutline } from 'react-icons/md';
 import { RiShoppingBag3Line } from 'react-icons/ri';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
 import { FiSettings } from 'react-icons/fi';
+import Footer from './Footer';
 
 const Sidebar = () => {
     const sidebar_list = [
@@ -36,12 +37,15 @@ const Sidebar = () => {
 
   return (
     <Box className='Sidebar'>
-      {sidebar_list.map(el => (
-        <Box className='Sidebar__single'>
-          {el.logo}
-          <Heading as='h5' size='sm'>{el.title}</Heading>
-        </Box>
-      ))}
+      <Box>
+        {sidebar_list.map(el => (
+          <Box className='Sidebar__single'>
+            {el.logo}
+            <Heading as='h5' size='sm'>{el.title}</Heading>
+          </Box>
+        ))}
+      </Box>
+      <Footer />
     </Box>
   )
 }
