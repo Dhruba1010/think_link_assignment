@@ -14,7 +14,7 @@
     color:#535f7b;
 }
 
-.Sidebar > .Sidebar__single:nth-child(1) {
+.Sidebar  .Sidebar__single:nth-child(1) {
     color:#811434;
     background-color: #f7f1f3;
     border-right: 2px solid #811434;
