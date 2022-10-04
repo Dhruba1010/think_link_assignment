@@ -4,6 +4,8 @@
     width:100%;
     height:56px;
     align-items:center;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar__logo {

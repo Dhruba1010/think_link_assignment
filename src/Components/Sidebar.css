@@ -2,6 +2,9 @@
     width: 250px;
     height:1460px;
     border-right: 1px solid lightgray;
+    position: fixed;
+    top: 56px;
+    z-index: 1;
 }
 
 .Sidebar__single {

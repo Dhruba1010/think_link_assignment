@@ -1,7 +1,10 @@
 .Main {
-    width: 100%;
+    width: fit-content;
     padding-top: 1%;
     color:#535f7b;
+    position: absolute;
+    left:250px;
+    top:56px;
 }
 
 .Main__Cont {
